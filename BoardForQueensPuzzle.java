@@ -66,7 +66,7 @@ public class BoardForQueensPuzzle {
         This method checks the last-filled rank.
      */
     public boolean accept() {
-         return !lastIsNg();
+         return lastRankFilled == fileWithQueens.length || !lastIsNg();
     }
 
 
